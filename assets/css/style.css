@@ -1,0 +1,170 @@
+body {
+    background-image: url("qbkls.png");
+    font-family: Arial, Helvetica, sans-serif ;
+    color : #777777;
+}
+/* nav bar */
+.nav-bar-title{
+    float: left;
+    background-color: white;
+    width: 70%;
+    height: 48px;
+    border-bottom: solid #dddddd 1px ;
+}
+
+h1 {
+    font-family : 'Georgia', Times, Times New Roman, serif ;
+    margin-left: 10%;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    padding: 12px 4% 12PX 4%;
+    width:fit-content;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+ul {
+    background-color: white;
+    float: right;
+    width: 30%;
+    border-bottom: solid #dddddd 1px ;
+}
+
+li {
+    align-content: left;
+    float: left;
+    padding: 16px 4% 16px 4%;
+    background-color: white;
+    
+}
+
+.hover-effect:hover {
+    background-color: rgb(202, 241, 241);
+    
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* nav bar ends here */
+
+
+/* main content */
+.filler-gap {
+    clear: both;
+    height: 40px;
+}
+.main-content {
+    clear: both;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 80%;
+    background-color: white;
+    /* height: fit-content; */
+    box-sizing: border-box;
+    
+}
+
+h2 {
+    font-size: 28px; 
+    color: #4aaaa5;
+    margin-left: 5%;
+    margin-right: 5%; 
+    padding-top: 2%; 
+    border-bottom: solid #dddddd 8px;
+    
+}
+.flex-box {
+    /* display: flex; */
+    position: absolute; 
+    background-color: white;
+    width: 80%;
+    padding-bottom: 60px;
+}
+.alyssa-pic {
+    position: relative;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left:5%;
+    margin-top: 4%;
+    padding-bottom:20px;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 4%;
+    line-height: 25px;
+    
+
+}
+
+
+footer {
+    width :100%;
+    text-align: center ;
+    background-color :#666666;
+    border-top :solid #4aaaa5 10px ;
+    font-size :12px;
+    color : white ;
+    padding : 16px 0 16px 0 ;
+    font-family: Arial, Helvetica, sans-serif ;
+    position: fixed ;
+    bottom :0;
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+    .nav-bar-title{
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding: 10px 0 14px 0;
+       
+    }
+    ul{
+        float: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: solid #dddddd 1px ;
+    }
+    li{
+        float: none;
+        display: inline-block;
+        align-content: center; 
+        
+    }
+    .main-content {
+        width: 100%;
+    }
+    .flex-box {
+        width: 100%;
+        
+    }
+    .paragraph {
+        clear: both;
+        width: 90%;
+        padding-top: 10px;
+    }
+    .alyssa-pic {
+        clear: both;
+        width: 90%;
+        padding-bottom: 20px;
+        border-bottom: solid #dddddd 8px ;
+        
+    }
+    
+}
+    
