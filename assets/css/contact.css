@@ -14,7 +14,7 @@ body {
 
 h1 {
     font-family : 'Georgia', Times, Times New Roman, serif ;
-    margin-left: 10%;
+    margin-left: 15%;
     font-size: 24px;
     background-color: #4aaaa5;
     padding: 12px 4% 12PX 4%;
@@ -54,6 +54,30 @@ li {
 
 
 /* main content */
+
+.filler-gap {
+    clear: both;
+    height: 40px;
+}
+.main-content {
+    clear: both;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 80%;
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 60px;
+}
+h2 {
+    font-size: 28px; 
+    color: #4aaaa5;
+    margin-left: 5%;
+    margin-right: 5%; 
+    padding-top: 2%; 
+    border-bottom: solid #dddddd 8px;
+    margin-bottom: 20px;
+    
+}
 .contact-card{
     margin-left: 5%;
     margin-right: 5%;
@@ -94,31 +118,17 @@ li {
     font-size : 15px;
 }
 
-
-
-
-
-.filler-gap {
-    clear: both;
-    height: 40px;
+.button-submit:hover {
+    background-color : #214e4c ;
 }
-.main-content {
-    clear: both;
-    margin: 0 auto;
-    border-radius: 4px;
-    width: 80%;
-    background-color: white;
-    height: fit-content;
-}
-h2 {
-    font-size: 28px; 
-    color: #4aaaa5;
-    margin-left: 5%;
-    margin-right: 5%; 
-    padding-top: 2%; 
-    border-bottom: solid #dddddd 8px;
-    margin-bottom: 20px;
-    
+.button-submit {
+    margin-top : 10px ;
+    width : 90px ;
+    height : 45px;
+    background-color : #4aaaa5 ;
+    color : white ;
+    font-size : 15px ;
+    text-align: center ;
 }
 
 
@@ -136,6 +146,14 @@ footer {
 }
 
 /* media queries */
+@media screen and (max-width: 768px) {
+    .nav-bar-title{
+        width: 60%;
+    }
+    ul {
+        width: 40%;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .nav-bar-title{

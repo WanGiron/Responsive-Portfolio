@@ -14,7 +14,7 @@ body {
 
 h1 {
     font-family : 'Georgia', Times, Times New Roman, serif ;
-    margin-left: 10%;
+    margin-left: 15%;
     font-size: 24px;
     background-color: #4aaaa5;
     padding: 12px 4% 12PX 4%;
@@ -119,6 +119,15 @@ footer {
 }
 
 /* media queries */
+
+@media screen and (max-width: 768px) {
+    .nav-bar-title{
+        width: 60%;
+    }
+    ul {
+        width: 40%;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .nav-bar-title{
